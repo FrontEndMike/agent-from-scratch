@@ -37,6 +37,5 @@ export const addMessages = async (messages: AIMessage[]) => {
 }
 
 export const getMessages = async () => {
-  const db = await getDb()
   return db.data.messages.map(removeMetadata)
 }
