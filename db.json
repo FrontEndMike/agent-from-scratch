@@ -125,6 +125,50 @@
       "content": "do you know the weather in atlanta right now?",
       "id": "d8ac8d41-f09b-4b7d-ac8c-f0ed2f013bb4",
       "createdAt": "2025-10-21T00:10:10.701Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather?",
+      "id": "371cd7fd-d024-4e02-9dbe-e8c045f054f4",
+      "createdAt": "2025-10-24T22:08:58.224Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have real-time weather data, but you mentioned that it's 69 degrees in Atlanta right now. If you need updated weather information, I recommend checking a weather website or app.",
+      "refusal": null,
+      "annotations": [],
+      "id": "f0cafe3c-e292-4a1a-aa31-dd12e96ac0eb",
+      "createdAt": "2025-10-24T22:08:59.973Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather?",
+      "id": "1c873f75-4802-44f4-93a6-fad54be50ce8",
+      "createdAt": "2025-10-24T22:12:44.120Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_6H16irmX5YU0mMDaqrOothec",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "67da707d-b6eb-4b12-be1a-b3f75ceaa032",
+      "createdAt": "2025-10-24T22:12:45.983Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather?",
+      "id": "dc640055-684b-4d4b-9a58-49f4486866ee",
+      "createdAt": "2025-10-24T22:14:35.231Z"
     }
   ]
 }
