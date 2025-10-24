@@ -13,6 +13,20 @@
       "annotations": [],
       "id": "fc0bedae-99b9-4445-a891-e535d3aa4a41",
       "createdAt": "2025-10-24T22:41:37.665Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather?",
+      "id": "89fa3b49-a8c0-4cf6-b553-b45ce294c34a",
+      "createdAt": "2025-10-24T22:43:14.601Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I need a specific location to provide you with the weather information. Please let me know the city or region you are interested in.",
+      "refusal": null,
+      "annotations": [],
+      "id": "9019553c-705d-4114-9df4-9e8e6a1f64e4",
+      "createdAt": "2025-10-24T22:43:16.175Z"
     }
   ]
 }
