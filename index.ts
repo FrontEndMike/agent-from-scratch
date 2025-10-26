@@ -9,17 +9,17 @@ if (!userMessage) {
   process.exit(1)
 }
 
-const weatherTool = {
-  name: 'get_weather',
-  description: `use this to get weather`,
-  parameters: z.object({
-    reasoning: z.string().describe('why did you pick this tool?'),
-  }),
-}
-
-const response = await runAgent({
+const messages = await runAgent({
   userMessage,
-  tools: [weatherTool],
+  tools: [
+    {
+      name: 'weather',
+      parameters: z
+        .object({
+          location: z.string().describe('City or "City, State/Country"'),
+          units: z.enum(['imperial', 'metric']).default('imperial'),
+        })
+        .describe('Get the current weather for a location'),
+    },
+  ],
 })
-
-console.log(response)
