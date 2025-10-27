@@ -98,42 +98,30 @@
     },
     {
       "role": "user",
-      "content": "what do you know about me?",
-      "id": "4c7eff84-feda-4e53-8b84-6fd2fecfe870",
-      "createdAt": "2025-10-21T00:05:10.498Z"
-    },
-    {
-      "role": "user",
-      "content": "how is the weather?",
-      "id": "3afcb489-8603-4b22-b7e8-1608510ecdc1",
-      "createdAt": "2025-10-26T22:53:58.636Z"
+      "content": "hi",
+      "id": "20c62f6b-bc94-48e3-a25e-7fe09106f62c",
+      "createdAt": "2025-10-27T21:34:15.109Z"
     },
     {
       "role": "assistant",
-      "content": "I know that your name is Mike, you live in Atlanta, you're a front-end developer learning React and Next.js, and you plan to build a movie search app using The Movie Database API.\n\nAs for the weather, let me check the current weather in Atlanta for you. One moment please! \n\nI'll get that information now. ",
+      "content": "Hello again, Mike! How can I assist you today?",
       "refusal": null,
       "annotations": [],
-      "id": "cae446d0-a282-457e-a0e2-515796ffc39b",
-      "createdAt": "2025-10-26T22:54:00.740Z"
+      "id": "85acb82b-6866-452e-8806-a2bbf3b579c4",
+      "createdAt": "2025-10-27T21:34:16.888Z"
     },
     {
       "role": "user",
-      "content": "how is the weather?",
-      "id": "45be0962-6707-417e-8d0d-ef883c89dff3",
-      "createdAt": "2025-10-26T22:56:46.906Z"
-    },
-    {
-      "role": "user",
-      "content": "how is the weather?",
-      "id": "7cccc5bf-46d1-4c12-aefe-5af2916f26e1",
-      "createdAt": "2025-10-26T23:00:54.337Z"
+      "content": "what is the weather?",
+      "id": "86154bc5-9ebf-4cea-9372-08e881dcff57",
+      "createdAt": "2025-10-27T21:34:29.160Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_c4HLMrdGCnC5eRRFDYkGwsBV",
+          "id": "call_pYYBNih2OBBx71a3PUo2GpMQ",
           "type": "function",
           "function": {
             "name": "weather",
@@ -143,29 +131,23 @@
       ],
       "refusal": null,
       "annotations": [],
-      "id": "52065d4f-e6cd-4a13-b280-f0a60a344505",
-      "createdAt": "2025-10-26T23:00:56.239Z"
+      "id": "43605d3e-ca5b-4108-8017-33847e1db7e3",
+      "createdAt": "2025-10-27T21:34:30.916Z"
     },
     {
       "role": "tool",
       "content": "very cold. 17deg",
-      "tool_call_id": "call_c4HLMrdGCnC5eRRFDYkGwsBV",
-      "id": "f95f4e7e-726e-4d0e-80ec-2a20d1ffb514",
-      "createdAt": "2025-10-26T23:00:56.243Z"
-    },
-    {
-      "role": "user",
-      "content": "what is the weather?",
-      "id": "e5f11d61-ef6a-4279-aa5a-67cb93b4bdd3",
-      "createdAt": "2025-10-26T23:06:21.548Z"
+      "tool_call_id": "call_pYYBNih2OBBx71a3PUo2GpMQ",
+      "id": "8a476e70-7491-463e-82ff-6c4ede048451",
+      "createdAt": "2025-10-27T21:34:30.919Z"
     },
     {
       "role": "assistant",
-      "content": "The current weather in Atlanta is very cold, with a temperature of 17°F. Make sure to bundle up if you're heading outside!",
+      "content": "The weather in Atlanta is very cold, with a temperature of 17°F. Make sure to bundle up if you're heading outside!",
       "refusal": null,
       "annotations": [],
-      "id": "f88df2ce-fb00-4483-836a-6cac1e9e0e4f",
-      "createdAt": "2025-10-26T23:06:23.306Z"
+      "id": "359e867a-cbf9-4589-b2d4-afb6f7d72fbf",
+      "createdAt": "2025-10-27T21:34:32.010Z"
     }
   ]
 }
